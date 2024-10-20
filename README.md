@@ -2,7 +2,7 @@
 Conversion of POLAR dataset (Posture-level Action Recognition Dataset) into YOLO format and training it on YOLO11 architecture
 
 ## Install [uv](https://docs.astral.sh/uv/getting-started/installation/#installing-uv):
-### 1. For Linux:
+### 1. For Linux/MacOS:
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```

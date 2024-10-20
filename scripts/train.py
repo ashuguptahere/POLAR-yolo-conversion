@@ -7,7 +7,7 @@ cwd = os.getcwd()
 # Load a COCO-pretrained YOLO model
 model = YOLO("yolo11x.pt")
 
-# Train the model on the COCO8 example dataset for 100 epochs
+# Train the model on the custom dataset
 results = model.train(
     data=f"{cwd}/dataset/data.yaml",
     epochs=300,
