@@ -1,0 +1,13 @@
+[project]
+name = "POLAR-yolo-conversion-and-train"
+version = "0.1.0"
+description = "Conversion of POLAR dataset into YOLO format"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "split-folders>=0.5.1",
+    "torch>=2.5.0",
+    "torchaudio>=2.5.0",
+    "torchvision>=0.20.0",
+    "ultralytics>=8.3.18",
+]

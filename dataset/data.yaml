@@ -1,0 +1,6 @@
+train: ./train/images
+val: ./val/images
+test: ./test/images
+
+nc: 9  # Number of classes
+names: ['squat', 'run', 'sit', 'stretch', 'walk', 'jump', 'bendover', 'stand', 'lying']
